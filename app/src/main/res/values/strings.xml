@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Deteksi Gastro</string>
+    <string name="app_question_name">Expert System AI - Question</string>
+    <string name="app_result_name">Expert System AI - Result</string>
+
+    <string name="main_title">Ingin tahu apakah anda terkena infeksi pada sistem gastro-usus ?</string>
+    <string name="main_subtitle">Mari cari tahu disini</string>
+    <string name="mulai">Mulai</string>
+    <string name="info">Info</string>
+    <string name="created_by"></string>
+    <string name="root">Infeksi Sistem Gastro-Usus</string>
+    <string name="back_image_button">Back Image Button</string>
+    <string name="forward_image_button">Forward Image Button</string>
+    <string name="previous_answer">Previous answer : </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="result">You\'re healthy :)</string>
+    <string name="description">Gastroenteritis atau flu perut merupakan suatu penyakit pencernaan dimana terjadi infeksi pada usus halus dan lambung yang disebabkan oleh beberapa virus antara lain norovirus, rotavirus, dan champylobacter. Gejala gastroenteritis ditandai pada lambung (gastro) dan usus kecil (entero) terjadi peradangan yang menyebabkan penderita mengalami mual, muntah, diare, dan kejang perut.</string>
+    <string name="staphy">Salep antibiotik. Pada kasus yang berat pasien harus dioperasi untuk mengeluarkan nanah</string>
+    <string name="jamur">Penderita yang shock dapat diberikan larutan garam fisiologis (0,85 persen NaCl), sedangkan untuk penderita yang gawat dapat juga diberikan suntikan ¼ mg antropin secara intra-muskular atau kalau mungkin per-oral.</string>
+    <string name="salmonella">Antibiotik ciprofloxacin untuk 10-14 hari. Pasien-pasien yang teridentifikasi sebagai imunnya tertekan (contohnya, pasien-pasien dengan AIDS atau menjalani kemoterapi kanker) harus menerima antibiotik-antibiotik.</string>
+    <string name="clostri">Pemberian antitoksin, terapi supportif dengan cara injeksi nutrisi, serta menghilangkan toksin dengan merangsang muntah dan atau peningkatan peristaltik usus untuk memudahkan buang air besar</string>
+    <string name="campy">Berbagai antibiotik digunakan untuk mengobati infeksi ini, baik secara tunggal maupun digabung dengan antibiotik lainnya.
+Siprofloksasin, tetrasiklin atau eritromisin biasanya membasmi bakteri dan menyembuhkan diare.
+Infeksi aliran darah biasanya memerlukan antibiotik intravena
+</string>
+
+    <string-array name="child">
+        <item>Keracunan Staphylococcus Aureus</item>
+        <item>Keracunan Jamur Beracun</item>
+        <item>Keracunan Salmonella</item>
+        <item>Keracunan Clostridium Botulinum</item>
+        <item>Keracunan Campylobacter</item>
+    </string-array>
+
+    <string-array name="child2">
+        <item>Mencret</item>
+        <item>Muntah</item>
+        <item>Sakit Perut</item>
+        <item>Darah Rendah</item>
+        <item>Koma</item>
+        <item>Demam</item>
+        <item>Septicaemia</item>
+        <item>Lumpuh</item>
+        <item>Mencret Berdarah</item>
+        <item>Makan daging</item>
+        <item>Makan jamur</item>
+        <item>Makan makanan kaleng</item>
+        <item>Makan susu</item>
+    </string-array>
+
+    <string-array name="symptoms">
+        <item>Buang air besar (lebih dari 2 kali)</item>
+        <item>Berak encer</item>
+        <item>Berak berdarah</item>
+        <item>Lesu dan tidak bergairah</item>
+        <item>Tidak selera makan</item>
+        <item>Merasa mual dan sering muntah (lebih dari 1 kali)</item>
+        <item>Merasa sakit di bagian perut</item>
+        <item>Tekanan darah rendah</item>
+        <item>Pusing</item>
+        <item>Pingsan</item>
+        <item>Suhu badan tinggi</item>
+        <item>Luka di bagian tertentu</item>
+        <item>Tidak dapat menggerakkan anggota badan tertentu</item>
+        <item>Memakan sesuatu</item>
+        <item>Memakan daging</item>
+        <item>Memakan jamur</item>
+        <item>Memakan makanan kaleng</item>
+        <item>Membeli susu</item>
+        <item>Meminum susu</item>
+    </string-array>
+
+    <string-array name="symptoms_questions">
+        <item>Apakah anda sering mengalami buang air besar (lebih dari 2 kali) ?</item>
+        <item>Apakah anda mengalami berak encer ?</item>
+        <item>Apakah anda mengalami berak berdarah ?</item>
+        <item>Apakah anda merasa lesu dan tidak bergairah ?</item>
+        <item>Apakah anda tidak selera makan ?</item>
+        <item>Apakah anda merasa mual dan sering muntah (lebih dari 1 kali) ?</item>
+        <item>Apakah anda merasa sakit di bagian perut ?</item>
+        <item>Apakah tekanan darah anda rendah ?</item>
+        <item>Apakah anda merasa pusing ?</item>
+        <item>Apakah anda mengalami pingsan ?</item>
+        <item>Apakah suhu badan anda tinggi ?</item>
+        <item>Apakah anda mengalami luka di bagian tertentu ?</item>
+        <item>Apakah anda tidak dapat menggerakkan anggota badan tertentu ?</item>
+        <item>Apakah anda pernah memakan sesuatu ?</item>
+        <item>Apakah anda memakan daging ?</item>
+        <item>Apakah anda memakan jamur ?</item>
+        <item>Apakah anda memakan makanan kaleng ?</item>
+        <item>Apakah anda membeli susu ?</item>
+        <item>Apakah anda meminum susu ?</item>
+    </string-array>
+</resources>

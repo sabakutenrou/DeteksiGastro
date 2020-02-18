@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="@dimen/default_16dp_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/created_by"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background_menu"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="PENDETEKSI GASTRO-USUS"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center|end"
+        android:padding="@dimen/default_16dp_margin">
+
+        <LinearLayout
+            android:id="@+id/up_menu"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="diagnosa infeksi gastro usus"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button_1"
+                android:text="@string/mulai"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/up_menu"
+            android:id="@+id/below_menu"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="informasi infeksi gastro usus"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/btn_info"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button_2"
+                android:text="@string/info"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
